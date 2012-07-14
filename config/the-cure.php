@@ -32,5 +32,12 @@ return array(
 			),
 			'connectionClass' => 'TheCure\Connections\MongoConnection',
 		),
+		'Mysql' => array(
+			'db'               => 'demo',
+			'connection'       => '127.0.0.1',
+			'username'         => 'username',
+			'password'         => 'password',
+			'connectionClass' => 'TheCure\Connections\MysqlConnection',
+		),
 	),
 );
