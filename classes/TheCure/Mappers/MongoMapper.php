@@ -1,7 +1,7 @@
 <?php
 /**
  * An MongoDB mapper
- * 
+ *
  *     $mapper->find(array('name' => 'Luke'));
  *     $mapper->find(array('name' => 'Luke'), 'Admin');
  *
@@ -51,7 +51,7 @@ abstract class MongoMapper extends Mapper implements ConnectionSetGet {
 		{
 			return $this->connection;
 		}
-		
+
 		$this->connection = $connection;
 	}
 

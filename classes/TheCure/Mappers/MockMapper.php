@@ -1,7 +1,7 @@
 <?php
 /**
  * An array mapper for mocking tests
- * 
+ *
  *     $mapper->find(array('name' => 'Luke'));
  *     $mapper->find(array('name' => 'Luke'), 'Admin');
  *
@@ -101,7 +101,7 @@ abstract class MockMapper extends Mapper {
 					{
 						$found[$record] = $collection[$record];
 					});
-				
+
 				return new \ArrayIterator($found);
 			});
 	}
