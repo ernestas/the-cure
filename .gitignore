@@ -4,3 +4,9 @@ test/junit.xml
 vendor
 composer.phar
 composer.lock
+*.swp
+*.vim
+/tags
+Vagrantfile
+.vagrant
+.DS_Store
