@@ -1,6 +1,6 @@
 <?php
 /**
- * An MongoDB mapper
+ * A MongoDB mapper
  *
  *     $mapper->find(array('name' => 'Luke'));
  *     $mapper->find(array('name' => 'Luke'), 'Admin');
