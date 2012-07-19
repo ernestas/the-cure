@@ -5,6 +5,7 @@ vendor
 composer.phar
 composer.lock
 *.swp
+*.swo
 *.vim
 /tags
 Vagrantfile
